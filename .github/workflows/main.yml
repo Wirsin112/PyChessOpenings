@@ -25,7 +25,7 @@ jobs:
         script: |
           cd /var/www/PyChessOpenings/
           git fetch origin
-          git reset --hard origin/main
+          git reset --hard origin/master
           git pull origin master
           git status
           # npm install --only=prod
