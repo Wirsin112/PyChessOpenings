@@ -26,4 +26,6 @@ jobs:
           cd /var/www/PyChessOpenings/
           git pull origin master
           git status
-          npm install --only=prod
+          # npm install --only=prod
+          touch grass
+          echo dupa
